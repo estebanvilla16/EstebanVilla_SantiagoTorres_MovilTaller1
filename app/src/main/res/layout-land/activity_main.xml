@@ -56,7 +56,8 @@
         android:layout_marginTop="16dp"
         android:text="Factorial"
         app:layout_constraintTop_toBottomOf="@+id/FiboeditTextNumber"
-        tools:layout_editor_absoluteX="-3dp" />
+        tools:layout_editor_absoluteX="-3dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -65,7 +66,8 @@
         android:layout_marginTop="20dp"
         android:text="FIBONACCI"
         app:layout_constraintTop_toBottomOf="@+id/TitulotextView"
-        tools:layout_editor_absoluteX="3dp" />
+        tools:layout_editor_absoluteX="3dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/paises"
@@ -74,15 +76,18 @@
         android:layout_marginTop="15dp"
         android:text="PAISES"
         app:layout_constraintTop_toBottomOf="@+id/spinner2"
-        tools:layout_editor_absoluteX="-2dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="729dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:entries="@array/countries"
         app:layout_constraintTop_toBottomOf="@+id/Factorialbutton2"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
